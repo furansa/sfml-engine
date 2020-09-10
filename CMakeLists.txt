@@ -7,6 +7,6 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "/usr/lib/x86_64-linux-gnu/cmake/SFML
 
 find_package(SFML 2.5 COMPONENTS graphics REQUIRED)
 
-add_executable(02_Basic Main.cpp Game.cpp Window.cpp)
+add_executable(PoC Main.cpp Game.cpp Window.cpp)
 
-target_link_libraries(02_Basic sfml-graphics)
+target_link_libraries(PoC sfml-graphics)
